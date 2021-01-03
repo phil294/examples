@@ -15,6 +15,7 @@ Vue.use(VueMeta, {
 });
 
 export default () => {
+  console.log('main.js: create new Vue');
   const store = createStore();
   const router = createRouter();
   return new Vue({

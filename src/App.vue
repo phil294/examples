@@ -48,7 +48,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style lang="stylus">
 html {
   font-size: 62.5%;
 }

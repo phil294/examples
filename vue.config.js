@@ -1,6 +1,10 @@
 const webpack = require('webpack');
 
 module.exports = {
+  css: {
+		sourceMap: true,
+  },
+  
   pwa: {
     name: 'UVue',
     themeColor: '#ffffff',
